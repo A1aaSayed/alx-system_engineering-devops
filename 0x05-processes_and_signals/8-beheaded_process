@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-# Bash script that displays To infinity and beyond indefinitely
+# Bash script that kills the process 7-highlander
 
-while true
-do
-    echo "To infinity and beyond"
-    sleep 2
-done
+pkill -f -SIGKILL 7-highighlander
