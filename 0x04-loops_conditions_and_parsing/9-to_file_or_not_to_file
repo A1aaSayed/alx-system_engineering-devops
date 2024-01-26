@@ -1,23 +1,23 @@
 #!/usr/bin/env bash
 # This script displays the content of the current directory in a list format
 
-file_path = "school"
+filename = "school"
 
-if [ -e $file_path ]
+if [ -e $filename ]
 then
-    echo "school file exists"
-    if [ -s $file_path ]
+    echo "$filename file exists"
+    if [ -s $filename ]
     then
-        echo "school file is not empty"
-        if [ -f $file_path ]
+        echo "$filename file is not empty"
+        if [ -f $filename ]
         then
-            echo "school is a regular file"
+            echo "$filename is a regular file"
         else
             echo "(nothing)"
         fi
     else
-        echo "school file is empty"
+        echo "$filename file is empty"
     fi
 else
-    echo "school file does not exist"
+    echo "$filename file does not exist"
 fi
