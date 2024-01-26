@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-# Bash script that displays lines containing the bash word
-# shellcheck disable=SC2009
+# Bash script that displays To infinity and beyond indefinitely
 
-ps aux | grep -w "bash"
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
