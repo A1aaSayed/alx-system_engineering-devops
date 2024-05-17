@@ -1,0 +1,7 @@
+# Client configuration file
+
+Host *
+	PubkeyAuthentication yes
+	IdentityFile ~/.ssh/school
+	PasswordAuthentication no
+
